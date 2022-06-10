@@ -14,6 +14,14 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub registry</name>
+            <url>https://maven.pkg.github.com/checktor/quality-assurance-parent</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
