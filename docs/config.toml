@@ -1,0 +1,7 @@
+baseURL = 'https://checktor.github.io/quality-assurance-parent/'
+languageCode = 'en-us'
+title = 'quality-assurance-parent'
+theme = 'beautifulhugo'
+
+[Params]
+subtitle = 'Parent POM including quality assurance plugins'
