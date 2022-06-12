@@ -9,6 +9,33 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+    <name>quality-assurance-parent</name>
+    <description>Parent POM including quality assurance plugins</description>
+    <url>https://checktor.github.io/quality-assurance-parent/</url>
+    <inceptionYear>2022</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>checktor</id>
+            <name>C. Hecktor</name>
+            <email>checktor@posteo.de</email>
+            <url>https://checktor.github.io/</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/checktor/quality-assurance-parent.git</connection>
+        <developerConnection>scm:git:https://github.com/checktor/quality-assurance-parent.git</developerConnection>
+        <url>https://github.com/checktor/quality-assurance-parent</url>
+    </scm>
+    
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
