@@ -8,7 +8,7 @@
     <!--
     <Match>
         <Class name="fully.qualified.class.name"/>
-        <Method name="methodeName"/>
+        <Method name="methodName"/>
         <Bug pattern="EC_UNRELATED_TYPES"/>
     </Match>
     -->
