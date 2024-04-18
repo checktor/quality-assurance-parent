@@ -17,7 +17,7 @@ This POM is intended to be used as parent POM of your Maven project:
 <parent>
     <groupId>io.github.checktor</groupId>
     <artifactId>quality-assurance-parent</artifactId>
-    <version>1.1.0</version>
+    <version>3.0.0</version>
 </parent>
 ```
 
