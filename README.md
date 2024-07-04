@@ -6,7 +6,7 @@ Parent POM designed to ensure a reliable build by explicitly defining specific v
 
 The following build tool versions are required via Maven's enforcer plugin:
 
-* Java 11
+* Java 17
 * Maven 3.6.3
 
 ## Usage
@@ -17,7 +17,7 @@ This POM is intended to be used as parent POM of your Maven project:
 <parent>
     <groupId>io.github.checktor</groupId>
     <artifactId>quality-assurance-parent</artifactId>
-    <version>3.0.0</version>
+    <version>4.0.0</version>
 </parent>
 ```
 
@@ -37,13 +37,16 @@ In order to consume a package from GitHub's package registry, you need to define
 In this case, we use `github` as the repository ID which should match the ID of your GitHub credentials in local `settings.xml` file:
 
 ```
-<servers>
-    <server>
-        <id>github</id>
-        <username>your_username</username>
-        <password>your_personal_access_token</password>
-    </server>
-</servers>
+<settings>
+    ...
+    <servers>
+        <server>
+            <id>github</id>
+            <username>your_username</username>
+            <password>your_personal_access_token</password>
+        </server>
+    </servers>
+</settings>
 ```
 
 ## OWASP Dependency-Check and SpotBugs filter
